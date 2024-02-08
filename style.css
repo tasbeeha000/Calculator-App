@@ -1,0 +1,91 @@
+body {
+    font-family: cursive;
+    background: rgb(0, 60, 76);
+    background: linear-gradient(
+      146deg,
+      rgba(0, 60, 76, 1) 0%,
+      rgba(3, 197, 239, 1) 28%,
+      rgba(0, 89, 203, 1) 67%,
+      rgba(0, 22, 76, 1) 100%
+    );
+    background-repeat: no-repeat;
+    background-size: cover; /* or contain */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  h1 {
+    margin-top: 20px;
+    color: white;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .box {
+    width: 250px;
+    height: 475px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.7);
+  }
+  .output-screen {
+    width: 206px;
+    height: 80px;
+    margin: 15px;
+    padding: 6px;
+    border-radius: 10px;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+  }
+  .menu-container {
+    width: 250px;
+    height: 100px;
+    margin: 20px;
+  }
+  .menu-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-flow: row wrap;
+  }
+  .button {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px 17px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 3px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  .button:active {
+    box-shadow: none;
+  }
+  .button:hover {
+    box-shadow: none;
+  }
+  #btnequal {
+    padding: 9px 16px;
+  }
+  .input-numbers {
+    display: flex;
+    /* padding: 7px; */
+  }
+  .output-numbers {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #btnsquare {
+    padding: 10px 16px;
+  }
+  #btnsquareRoot {
+    padding: 10px 25px;
+  }
+  #btnequal {
+    padding: 10px 100px;
+  }
+  #btnclear {
+    padding: 10px 66px;
+  }

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calcultor</title>
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+  </head>
+  <body>
+    <h1 style="text-align: center">Calculator App</h1>
+    <div class="container">
+      <div class="box">
+        <div class="output-screen" style="overflow: hidden">
+          <div id="Input" class="input-numbers"></div>
+
+          <div class="output-numbers">
+            <p id="Out"></p>
+          </div>
+        </div>
+
+        <div class="menu-container">
+          <div class="menu-buttons">
+            <div class="button-container">
+              <button class="button" id="btnseven" onclick="DisplayNumber('7')">
+                7
+              </button>
+            </div>
+            <div class="button-container">
+              <button class="button" id="btneight" onclick="DisplayNumber('8')">
+                8
+              </button>
+            </div>
+            <div class="button-container">
+              <button class="button" id="btnnine" onclick="DisplayNumber('9')">
+                9
+              </button>
+            </div>
+            <div class="button-container">
+              <button
+                class="button"
+                id="btnbackspace"
+                onclick="ClearOneDigit()"
+              >
+                &lArr;
+              </button>
+            </div>
+
+            <div class="button-container">
+              <button class="button" id="btnfour" onclick="DisplayNumber('4')">
+                4
+              </button>
+            </div>
+            <div class="button-container">
+              <button class="button" id="btnfive" onclick="DisplayNumber('5')">
+                5
+              </button>
+            </div>
+            <div class="button-container">
+              <button class="button" id="btnsix" onclick="DisplayNumber('6')">
+                6
+              </button>
+            </div>
+            <div class="button-container">
+              <button class="button" id="btnplus" onclick="DisplayNumber('/')">
+                ÷
+              </button>
+            </div>
+
+            <div class="button-container">
+              <button class="button" id="btnone" onclick="DisplayNumber('1')">
+                1
+              </button>
+            </div>
+            <div class="button-container">
+              <button class="button" id="btntwo" onclick="DisplayNumber('2')">
+                2
+              </button>
+            </div>
+            <div class="button-container">
+              <button class="button" id="btnthree" onclick="DisplayNumber('3')">
+                3
+              </button>
+            </div>
+            <div class="button-container">
+              <button class="button" id="btnminus" onclick="DisplayNumber('-')">
+                -
+              </button>
+            </div>
+
+            <div class="button-container">
+              <button class="button" id="btnzero" onclick="DisplayNumber('0')">
+                0
+              </button>
+            </div>
+            <div class="button-container">
+              <button class="button" id="btndot" onclick="DisplayNumber('.')">
+                .
+              </button>
+            </div>
+            <div class="button-container">
+              <button class="button" id="btnsmod" onclick="DisplayNumber('%')">
+                %
+              </button>
+            </div>
+            <div class="button-container">
+              <button
+                class="button"
+                id="btnmultiply"
+                onclick="DisplayNumber('*')"
+              >
+                &times;
+              </button>
+            </div>
+            <div class="button-container">
+              <button
+                class="button"
+                id="btnmultiply"
+                onclick="DisplayNumber('+')"
+              >
+                &plus;
+              </button>
+            </div>
+
+            <div class="button-container">
+              <button class="button" id="btnclear" onclick="Clear()">AC</button>
+            </div>
+            <div class="button-container">
+              <button class="button" id="btnsquare" onclick="square()">
+                Square
+              </button>
+            </div>
+
+            <div class="button-container">
+              <button class="button" id="btnsquareRoot" onclick="squareRoot()">
+                square root
+              </button>
+            </div>
+
+            <div class="button-container">
+              <button class="button" id="btnequal" onclick="equal()">=</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script></script>
+  </body>
+</html>
