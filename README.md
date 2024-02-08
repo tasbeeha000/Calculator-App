@@ -23,7 +23,12 @@
     <br>
    
 
+<h3>How its works? - Video</h3>
+<br>
 
+
+
+https://github.com/tasbeeha000/Project-15-Calculator/assets/137652796/93a08712-6a85-40bd-a0df-c790005e8598
 
 
 
@@ -82,15 +87,7 @@
 
 
 <br>
-<h3>How its works? - Video</h3>
-<br>
 
-
-
-
-
-
-https://github.com/tasbeeha000/Project-15-Calculator/assets/137652796/93a08712-6a85-40bd-a0df-c790005e8598
 
 
 
