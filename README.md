@@ -1,5 +1,5 @@
 # A SIMPLE CACULATOR
-<h1>PET HUB WEBSITE</h1>
+<h1>CACULATOR</h1>
 <br>
 <h3>Introduction</h3>
 <br>
